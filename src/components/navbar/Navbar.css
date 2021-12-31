@@ -6,7 +6,7 @@
         ". title . elements";
     
     background-color: #231f20;
-    font-family: 'Helvetica';
+    font-family: inherit;
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
 }
