@@ -1,6 +1,6 @@
 import React from 'react';
 
-const experience = () => {
+const Experience = () => {
     return (
         <div>
             <h3>Experience</h3>
@@ -8,4 +8,4 @@ const experience = () => {
     );
 };
 
-export default experience;
+export default Experience;

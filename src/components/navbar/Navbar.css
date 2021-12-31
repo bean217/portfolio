@@ -32,3 +32,8 @@
     padding: 10px 30px;
     cursor: default;
 }
+
+.nav-container a {
+    text-decoration: none;
+    color: inherit;
+}

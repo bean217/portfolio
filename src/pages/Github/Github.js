@@ -1,11 +1,11 @@
 import React from 'react';
 
-const projects = () => {
+const Github = () => {
     return (
         <div>
-            <h3>Projects</h3>
+            <h3>GitHub</h3>
         </div>
     );
 };
 
-export default projects;
+export default Github;
