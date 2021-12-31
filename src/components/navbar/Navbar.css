@@ -8,6 +8,7 @@
     font-family: inherit;
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+    padding: 1.5rem;
 }
 
 .title {
@@ -16,7 +17,7 @@
 }
 
 .icon {
-    height: 24pt;
+    height: 4rem;
 }
 
 .nav-elements {
