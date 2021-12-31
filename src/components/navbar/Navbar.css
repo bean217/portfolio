@@ -5,7 +5,6 @@
     grid-template-areas: 
         ". title . elements";
     
-    background-color: #231f20;
     font-family: inherit;
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
@@ -16,6 +15,10 @@
     text-align: center;
 }
 
+.icon {
+    height: 24pt;
+}
+
 .nav-elements {
     grid-area: elements;
     display: flex;
@@ -24,7 +27,7 @@
 }
 
 .nav-element:hover {
-    background-color: #332f30;
+    background-color: #080a0b;
     color: #ef5951;
 }
 
