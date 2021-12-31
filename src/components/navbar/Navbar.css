@@ -1,0 +1,33 @@
+.nav-container {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 
+        "title elements";
+    
+    background-color: #231f20;
+    padding: 5px;
+    border-bottom: #ff6961 1px solid;
+}
+
+.title {
+    grid-area: title;
+    text-align: left;
+}
+
+.nav-elements {
+    grid-area: elements;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+}
+
+.nav-element:hover {
+    background-color: #332f30;
+    color: #ff6961;
+}
+
+.text {
+    padding: 10px;
+    cursor: default;
+}
