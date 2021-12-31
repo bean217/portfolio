@@ -3,7 +3,7 @@
     grid-area: nav;
     grid-template-columns: 1fr 7fr 12fr;
     grid-template-areas: 
-        ". title elements";
+        ". title . elements";
     
     background-color: #231f20;
     font-family: 'Helvetica';
@@ -13,14 +13,14 @@
 
 .title {
     grid-area: title;
-    text-align: left;
+    text-align: center;
 }
 
 .nav-elements {
     grid-area: elements;
     display: flex;
     justify-content: space-around;
-    padding-right: 10%;
+    padding-right: 5vw;
 }
 
 .nav-element:hover {

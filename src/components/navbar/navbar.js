@@ -29,7 +29,7 @@ function Navbar() {
                 <Link to="/projects"><Element name="Projects"/></Link>
                 <Link to="/experience"><Element name="Experience"/></Link>
                 <Link to="/extra"><Element name="Extra"/></Link>
-                <Link to="/github"><Element name="GitHub"/></Link>
+                <a href='https://github.com/bean217'><Element name="GitHub"/></a>
             </div>
             
         </div>

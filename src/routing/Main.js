@@ -5,16 +5,14 @@ import About from '../pages/About/About';
 import Projects from '../pages/Projects/Projects';
 import Experience from '../pages/Experience/Experience';
 import Extra from '../pages/Extra/Extra';
-import Github from '../pages/Github/Github';
 
 const Main = () => {
   return (
     <Routes> {/* The Routes decides which component to show based on the current URL.*/}
-      <Route exact path='/' component={About}></Route>
-      <Route exact path='/projects' component={Projects}></Route>
-      <Route exact path='/experience' component={Experience}></Route>
-      <Route exact path='/extra' component={Extra}></Route>
-      <Route exact path='/github' component={Github}></Route>
+      <Route path='/' element={<About />}></Route>
+      <Route path='/projects' element={<Projects />}></Route>
+      <Route path='/experience' element={<Experience />}></Route>
+      <Route path='/extra' element={<Extra />}></Route>
     </Routes>
   );
 }
