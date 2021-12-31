@@ -7,10 +7,10 @@ function Element(props) {
 
 function Navbar(props) {
     const titleName = props.title.split(' ');
-    const fname = (<span style={{color: '#ff6961'}}>{titleName[0]}</span>);
+    const fname = (<span style={{color: '#ef5951'}}>{titleName[0]}</span>);
     const lname = (<span>{titleName[1]}</span>);
     return (
-        <div className="nav-container">
+        <div className="nav-container noselect">
             <div className="title text"><span >{fname} {lname}</span></div>
             <div className="nav-elements">
                 <Element name="About"/>
