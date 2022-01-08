@@ -1,15 +1,17 @@
 .nav-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     grid-area: nav;
-    grid-template-columns: 1fr 7fr 12fr;
-    grid-template-areas: 
-        ". title . elements .";
-    
     font-family: inherit;
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
-    padding: 1.5rem 25vw;
     position: relative;
+}
+
+.container {
+    margin: 0 auto;
 }
 
 .title {
@@ -25,7 +27,7 @@
     grid-area: elements;
     display: flex;
     justify-content: space-around;
-    padding-right: 5vw;
+    margin-right: 5%;
     align-items: center;
 }
 

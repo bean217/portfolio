@@ -8,15 +8,12 @@ import logo_invert from '../../assets/logo_invert.png';
 
 function Title(props) {
     const [isTitleHover, setIsTitleHover] = useState(false);
-    const titleName = props.title.split(' ');
     const titleLogo = (<img className="icon" src={isTitleHover ? logo_invert : logo}></img>);
-    const fname = (<span style={isTitleHover ? {} : {color: '#ef5951'}}>{titleName[0]}</span>);
-    const lname = (<span style={isTitleHover ? {color: '#ef5951'} : {}}>{titleName[1]}</span>);
     return (
         <div className="title text"
                 onMouseEnter={() => setIsTitleHover(true)}
                 onMouseLeave={() => setIsTitleHover(false)}>
-                <Link to="/"><div>{titleLogo} <span>{fname} {lname}</span></div></Link>
+                <Link to="/"><div>{titleLogo}</div></Link>
         </div>
     );
 }
