@@ -10,9 +10,9 @@ import nav_drop_down_invert from '../../assets/nav_drop_down_invert.png';
 
 function Title() {
     const [isTitleHover, setIsTitleHover] = useState(false);
-    const titleLogo = (<img className="icon" src={isTitleHover ? logo_invert : logo} alt=''></img>);
+    const titleLogo = (<img className="icon text" src={isTitleHover ? logo_invert : logo} alt=''></img>);
     return (
-        <div className="title text"
+        <div className="title"
                 onMouseEnter={() => setIsTitleHover(true)}
                 onMouseLeave={() => setIsTitleHover(false)}>
                 <Link to="/"><div>{titleLogo}</div></Link>
@@ -22,9 +22,9 @@ function Title() {
 
 function DropDown() {
     const [isDropDownHover, setIsDropDownHover] = useState(false);
-    const dropdownicon = (<img className="icon" src={isDropDownHover ? nav_drop_down_invert : nav_drop_down} alt=''></img>);
+    const dropdownicon = (<img className="icon text" src={isDropDownHover ? nav_drop_down_invert : nav_drop_down} alt=''></img>);
     return (
-        <div className="dropdown text"
+        <div className="dropdown"
             onMouseEnter={() => setIsDropDownHover(true)}
             onMouseLeave={() => setIsDropDownHover(false)}>
                 <div>{dropdownicon}</div>

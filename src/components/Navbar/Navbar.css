@@ -1,4 +1,5 @@
 .nav-container-desktop {
+    padding: 10px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,16 +70,6 @@ a {
         box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
         position: sticky;
         top: 0;
-    }
-
-    .nav-container-mobile .start {
-        margin-right: auto;
-        margin-left: 0;
-    }
-
-    .nav-container-mobile .end {
-        margin-right: 0;
-        margin-left: auto;
     }
 
     .nav-container-mobile .dropdown-menu img {
