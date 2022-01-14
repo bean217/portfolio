@@ -45,7 +45,7 @@ function Element(props) {
 function Navbar() {
     return (
         <nav>
-            <div className="nav-container-desktop noselect">
+            <div id="nav" className="nav-container-desktop noselect">
                 <Title />
                 <div className="nav-elements">
                     <Link to="/"><Element name="About"/></Link>
@@ -54,7 +54,7 @@ function Navbar() {
                     <Link to="/extra"><Element name="Extra"/></Link>
                 </div>
             </div>
-            <div className="nav-container-mobile noselect">
+            <div id="nav" className="nav-container-mobile noselect">
                 <Title />
                 <DropDown />
             </div>

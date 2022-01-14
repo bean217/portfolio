@@ -4,7 +4,8 @@ import './About.css';
 const About = () => {
     return (
         <div>
-            <h3>About</h3>
+            <div style={{height: `calc(100vh - ${document.getElementById("nav").offsetHeight}px)`, backgroundColor: "red"}}>
+            </div>
         </div>
     );
 };
