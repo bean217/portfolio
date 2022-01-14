@@ -27,7 +27,13 @@ function DropDown() {
         <div className="dropdown"
             onMouseEnter={() => setIsDropDownHover(true)}
             onMouseLeave={() => setIsDropDownHover(false)}>
-                <div>{dropdownicon}</div>
+            <div>{dropdownicon}</div>
+            <div className="dropdown-content">
+                <Link to="/"><Element name="About"/></Link>
+                <Link to="/projects"><Element name="Projects"/></Link>
+                <Link to="/experience"><Element name="Experience"/></Link>
+                <Link to="/extra"><Element name="Extra"/></Link>
+            </div>
         </div>
     );
 }
