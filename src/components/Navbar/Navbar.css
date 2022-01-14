@@ -1,4 +1,4 @@
-.nav-container {
+.nav-container-desktop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,10 @@
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
     position: relative;
+}
+
+.nav-container-mobile {
+    display: none;
 }
 
 .container {
@@ -41,11 +45,16 @@
     cursor: default;
 }
 
-.nav-container a {
+a {
     text-decoration: none;
     color: inherit;
 }
 
-@media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 786px) {
+    .nav-container-desktop {
+        display: none;
+    }
+    
+    .nav-container-mobile {
+    }
 }

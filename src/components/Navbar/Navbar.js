@@ -8,7 +8,7 @@ import logo_invert from '../../assets/logo_invert.png';
 
 function Title(props) {
     const [isTitleHover, setIsTitleHover] = useState(false);
-    const titleLogo = (<img className="icon" src={isTitleHover ? logo_invert : logo}></img>);
+    const titleLogo = (<img className="icon" src={isTitleHover ? logo_invert : logo} alt=''></img>);
     return (
         <div className="title text"
                 onMouseEnter={() => setIsTitleHover(true)}
@@ -25,15 +25,17 @@ function Element(props) {
 function Navbar() {
     return (
         <nav>
-            <div className="nav-container noselect">
+            <div className="nav-container-desktop noselect">
                 <Title title="Benjamin Piro" />
                 <div className="nav-elements">
                     <Link to="/"><Element name="About"/></Link>
                     <Link to="/projects"><Element name="Projects"/></Link>
                     <Link to="/experience"><Element name="Experience"/></Link>
                     <Link to="/extra"><Element name="Extra"/></Link>
-                    <a href='https://github.com/bean217'><Element name="GitHub"/></a>
                 </div>
+            </div>
+            <div className="nav-container-mobile noselect">
+                
             </div>
         </nav>
     );
