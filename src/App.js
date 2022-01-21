@@ -1,15 +1,19 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+//import Navbar from './components/Navbar/Navbar';
 import Main from './routing/Main';
 import React from 'react'
+
+import useNavbar from './components/Navbar/Navbar';
 
 export const NavDimsContext = React.createContext();
 
 function App() {
+    const { navDims, navRender } = useNavbar();
+
     return (
         <div className="App">
-            <Navbar/>
-            <NavDimsContext.Provider value={null}>
+            {navRender}
+            <NavDimsContext.Provider value={navDims}>
                 <Main />
             </NavDimsContext.Provider>
         </div>

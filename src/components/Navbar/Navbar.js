@@ -55,11 +55,13 @@ const useRefDimensions = (ref) => {
     return dimensions;
 }
 
-function Navbar() {
+function useNavbar() {
     // References to navbar div dimensions
     const divRef = createRef();
     const dimensions = useRefDimensions(divRef);
-    return (
+    return {
+        navDims: dimensions,
+        navRender: (
         <nav ref={divRef}>
             <div id="nav" className="nav-container-desktop noselect">
                 <Title />
@@ -75,7 +77,7 @@ function Navbar() {
                 <DropDown />
             </div>
         </nav>
-    );
+    )};
 }
 
-export default Navbar;
+export default useNavbar;

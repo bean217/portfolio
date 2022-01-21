@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { NavDimsContext } from '../../App';
 import './About.css';
 
 const About = (props) => {
+    const navDims = useContext(NavDimsContext);
     const scrollPosition = props.scrollPosition;
 
     return (
@@ -9,7 +11,7 @@ const About = (props) => {
             <div 
                 className="landing" 
                 style={{
-                    height: `calc(100vh - 100px)`,
+                    height: `calc(100vh - ${navDims.height}px)`,
                     backgroundColor: "red"}}>
                         
             </div>
