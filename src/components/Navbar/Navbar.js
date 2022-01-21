@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, createRef } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -42,9 +42,25 @@ function Element(props) {
     return (<div className="nav-element text">{props.name}</div>);
 }
 
+const useRefDimensions = (ref) => {
+    const [dimensions, setDimensions] = useState({width: 0, height: 0});
+    useEffect(() => {
+        if (ref.current) {
+            const { current } = ref;
+            const boundingRect = current.getBoundingClientRect();
+            const { width, height } = boundingRect;
+            setDimensions({width: Math.round(width), height: Math.round(height)});
+        }
+    }, [ref]);
+    return dimensions;
+}
+
 function Navbar() {
+    // References to navbar div dimensions
+    const divRef = createRef();
+    const dimensions = useRefDimensions(divRef);
     return (
-        <nav>
+        <nav ref={divRef}>
             <div id="nav" className="nav-container-desktop noselect">
                 <Title />
                 <div className="nav-elements">
