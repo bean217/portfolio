@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useLayoutEffect } from 'react';
 
 export default function useScrollPosition() {
     // Fetching Scroll Position
@@ -7,7 +7,7 @@ export default function useScrollPosition() {
         const position = window.pageYOffset;
         setScrollPosition(position);
     };
-    useEffect(() => {
+    useLayoutEffect(() => {
         window.addEventListener("scroll", handleScroll);
 
         return () => {
