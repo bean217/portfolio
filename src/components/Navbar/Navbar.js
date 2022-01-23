@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -42,29 +42,11 @@ function Element(props) {
     return (<div className="nav-element text">{props.name}</div>);
 }
 
-const useRefDimensions = (ref) => {
-    const [dimensions, setDimensions] = useState({width: 0, height: 0});
-    useEffect(() => {
-        if (ref.current) {
-            const { current } = ref;
-            const boundingRect = current.getBoundingClientRect();
-            const { width, height } = boundingRect;
-            setDimensions({width: Math.round(width), height: Math.round(height)});
-        }
-    }, [ref]);
-    return dimensions;
-}
-
 function useNavbar() {
-    console.log("Navbar render")
-    // References to navbar div dimensions
-    const divRef = useRef();
-    const dimensions = useRefDimensions(divRef);
-    return {
-        navDims: dimensions,
-        navRender: (
-        <nav ref={divRef}>
-            <div id="nav" className="nav-container-desktop noselect">
+    console.log("Navbar render");
+    return (
+        <nav id="nav">
+            <div className="nav-container-desktop noselect">
                 <Title />
                 <div className="nav-elements">
                     <Link to="/"><Element name="About"/></Link>
@@ -73,12 +55,12 @@ function useNavbar() {
                     <Link to="/extra"><Element name="Extra"/></Link>
                 </div>
             </div>
-            <div id="nav" className="nav-container-mobile noselect">
+            <div className="nav-container-mobile noselect">
                 <Title />
                 <DropDown />
             </div>
         </nav>
-    )};
+    );
 }
 
 export default useNavbar;

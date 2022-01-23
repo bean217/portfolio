@@ -5,7 +5,7 @@ export default function useScrollPosition() {
     const [scrollPosition, setScrollPosition] = useState(0);
     const handleScroll = () => {
         const position = window.pageYOffset;
-        setScrollPosition(position);
+        setScrollPosition(Math.round(position));
     };
     useLayoutEffect(() => {
         window.addEventListener("scroll", handleScroll);
