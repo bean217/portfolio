@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -56,8 +56,9 @@ const useRefDimensions = (ref) => {
 }
 
 function useNavbar() {
+    console.log("Navbar render")
     // References to navbar div dimensions
-    const divRef = createRef();
+    const divRef = useRef();
     const dimensions = useRefDimensions(divRef);
     return {
         navDims: dimensions,
