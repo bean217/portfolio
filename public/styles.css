@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Courier New", "Poppins", sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 :root {
@@ -21,8 +22,16 @@ body {
     line-height: 1.5;
     background-color: #181a1b;
     color: #f5f5f5;
+    text-align: center;
 }
 
 img {
     display: block;
+}
+
+@font-face {
+    font-family: 'caviar-dreams-bold';
+    src: url(fonts/CaviarDreams/CaviarDreams_Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
 }
