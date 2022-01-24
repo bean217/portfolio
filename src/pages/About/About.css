@@ -1,19 +1,77 @@
-.landing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/** LANDING SECTION **/
+
+.landing-container {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.landingphoto, .landingname, .landingtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
+    width: auto;
+}
+
+.landingitem {
+    padding: 5px;
+    margin: 10px;
+    font-size: 2em;
+    font-family: caviar-dreams-bold;
 }
 
 .landingphoto {
+    grid-area: landing-photo;
+}
+
+.landingphoto img {
     width: 40%;
     max-width: 50vh;
+    min-width: 250px;
+    min-height: 250px;
+    border: 10px solid white;
     border-radius: 100%;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
 }
 
+.landingname {
+    grid-area: landing-name;
+    font-size: 5.5rem;
+}
+
+.landingtext {
+    grid-area: landing-text;
+    font-size: 2rem;
+}
+
+
+/** LANDING EXPERIENCE SECTION **/
+.landingexperience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.landingexperience div {
+    padding: 10px 20px;
+}
+
+.landingexperience img {
+    height: 100%;
+    width: 100%;
+    max-height: 125px;
+}
 
 @keyframes gradient {
     0% {
@@ -25,4 +83,17 @@
     100% {
         background-position: 0% 50%;
     }
+}
+
+@media only screen and (max-width: 786px) {
+    /** LANDING SECTION **/
+    .landingname {
+        font-size: 3rem;
+    }
+
+    .landingtext {
+        font-size: 1.5rem;
+    }
+
+    /** LANDING EXPERIENCE SECTION **/
 }
