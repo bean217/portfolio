@@ -2,7 +2,8 @@ import './App.css';
 import React from 'react'
 
 // Components
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 // Routing
 import About from './pages/About/About';
@@ -22,7 +23,7 @@ function App() {
                 <Route path='/experience' element={<Experience />}></Route>
                 <Route path='/extra' element={<Extra />}></Route>
             </Routes>
-
+            <Footer/>
         </div>
     );
 }

@@ -1,0 +1,47 @@
+.footer {
+    height: auto;
+}
+
+.footer-icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+    width: 200px;
+}
+
+.footer-icon {
+    display: flex;
+    column-gap: 0px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.footer-icon:hover {
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

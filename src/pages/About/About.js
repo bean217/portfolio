@@ -37,8 +37,16 @@ const LandingExperience = () => {
         <div className="landingexperience">
             <div className="rit"><img src={ritlogo} alt=""></img></div>
             <div className="csh"><img src={ritcsh} alt=""></img></div>
-            <div className="crossmen"><img src={crossmen} alt=""></img></div>
+            <div className="crossmen"><img src={crossmen} alt=""></img></div>npm 
             <div className="carestream"><img src={carestream} alt=""></img></div>
+        </div>
+    );
+};
+
+const Description = () => {
+    return (
+        <div className="description-container">
+            Description Container
         </div>
     );
 };
@@ -49,6 +57,7 @@ const About = () => {
         <div>
             <Landing/>
             <LandingExperience/>
+            <Description/>
         </div>
     );
 };
