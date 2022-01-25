@@ -6,6 +6,7 @@ import benpic from '../../assets/benpiro.png';
 import ritlogo from '../../assets/RIT_seal.png';
 import ritcsh from '../../assets/rit_csh.png';
 import carestream from '../../assets/carestream.png';
+import crossmen from '../../assets/crossmen-productions-logo.jpg';
 
 // Hooks
 import useScrollPosition from '../../hooks/useScrollPosition';
@@ -36,6 +37,7 @@ const LandingExperience = () => {
         <div className="landingexperience">
             <div className="rit"><img src={ritlogo} alt=""></img></div>
             <div className="csh"><img src={ritcsh} alt=""></img></div>
+            <div className="crossmen"><img src={crossmen} alt=""></img></div>
             <div className="carestream"><img src={carestream} alt=""></img></div>
         </div>
     );
