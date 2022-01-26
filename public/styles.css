@@ -35,3 +35,22 @@ img {
     font-style: bold;
     font-weight: 700;
 }
+
+@font-face {
+    font-family: 'source-sans-pro';
+    src: url(fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'source-sans-pro-light';
+    src: url(fonts/SourceSansPro/SourceSansPro-Light.ttf);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'source-sans-pro-bold';
+    src: url(fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+}

@@ -78,25 +78,27 @@ const Description = () => {
                     </div>
                 </div>
                 <div className="description-text">
-                    <div className="name"><span>Benjamin Piro</span></div>
-                    <div className="education"><span>RIT '24, Computer Science Student, Software Engineer, and Musician</span></div>
-                    <span className="text">I am a current undergraduate student at the Rochester Institute of Technology and 
+                    <div className="name">Benjamin Piro</div>
+                    <br/>
+                    <div className="education">RIT '24, Computer Science Student, Software Engineer, and Musician</div>
+                    <div className="text">I am a current undergraduate student at the Rochester Institute of Technology and 
                         I have a deep passion for both computer science and music. My interests included
                         software development, computational mathematics, artificial intelligent, and machine
                         learning. In my leisure, I enjoy performing as a tubist in the RIT Philharmonic
                         Orchestra and participating as a member and section leader of The Cadets Drum
-                        &amp; Bugle Corps tuba section.</span>
+                        &amp; Bugle Corps tuba section.</div>
                     <br/>
-                    <span className="text">I am currently working as a software engineer intern at Carestream Health, Inc. as a member
+                    <div className="text">I am currently working as a software engineer intern at Carestream Health, Inc. as a member
                         of their ImageView team. This team is responsible for developing and maintaining the user
                         interfaces used on Carestream's suite of X-ray machines.
-                    </span>
-                    <div className="education"><span>Rochester Institute of Technology (RIT)</span></div>
+                    </div>
+                    <br/><br/>
+                    <div className="education">Rochester Institute of Technology (RIT)</div>
                     <ul className="education-list">
-                        <li><b>Bachelor of Science in Computer Science</b></li>
-                        <li><b>Immersion in German Language &amp; Culture</b></li>
-                        <li>Alumnus of Computer Science House</li>
-                        <li>Outstanding Undergraduate Scholar Award Recipient (awarded to the top 1% undergraduate students at RIT)</li>
+                        <li className="bold">Bachelor of Science in Computer Science</li>
+                        <li className="bold">Immersion in German Language &amp; Culture</li>
+                        <li className="regular">Alumnus of Computer Science House</li>
+                        <li className="regular">Outstanding Undergraduate Scholar Award Recipient (awarded to the top 1% undergraduate students at RIT)</li>
                     </ul>
                 </div>
             </div>

@@ -154,15 +154,37 @@
 
 .description-text {
     text-align: left;
+    font-size: 18pt;
+    line-height: 2.5rem;
+}
+
+.description-text .name {
+    font-size: 24pt;
+    font-family: source-sans-pro-bold;
+}
+
+.description-text .education {
+    font-family: source-sans-pro;
 }
 
 .description-text .text {
     display: inline-block;
+    font-family: source-sans-pro-light;
 }
 
 .description-text .education-list {
     display: inline-block;
+    margin-left: 3ch;
 }
+
+.description-text .education-list .regular {
+    font-family: source-sans-pro-light;
+}
+
+.description-text .education-list .bold {
+    font-family: source-sans-pro;
+}
+
 /** SKILLS SECTION **/
 
 .skills-container {
@@ -208,6 +230,16 @@
         flex-direction: column;
         width: 100vw;
         min-width: 0;
+    }
+
+    .description-text {
+        font-size: 14pt;
+        line-height: 2rem;
+    }
+
+    .description-text .name {
+        font-size: 20pt;
+        text-align: center;
     }
 
     /** SKILLS SECTION **/
