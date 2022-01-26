@@ -79,9 +79,20 @@
 
 .description-container {
     height: auto;
-    border: 1px solid blue;
     background-color: #e6e6e6;
     color: #181a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    padding: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    min-width: 786px;
+    max-width: 70vw;
 }
 
 .description-photo {
@@ -141,6 +152,17 @@
     font-size: 25px;
 }
 
+.description-text {
+    text-align: left;
+}
+
+.description-text .text {
+    display: inline-block;
+}
+
+.description-text .education-list {
+    display: inline-block;
+}
 /** SKILLS SECTION **/
 
 .skills-container {
@@ -181,6 +203,12 @@
     /** LANDING EXPERIENCE SECTION **/
 
     /** DESCRIPTION SECTION **/
+
+    .description {
+        flex-direction: column;
+        width: 100vw;
+        min-width: 0;
+    }
 
     /** SKILLS SECTION **/
 
