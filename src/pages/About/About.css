@@ -76,7 +76,82 @@
 
 
 /** DESCRIPTION SECTION **/
+
 .description-container {
+    height: auto;
+    border: 1px solid blue;
+    background-color: #e6e6e6;
+    color: #181a1b;
+}
+
+.description-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-item {
+    padding: 5px;
+    margin: 10px;
+    font-size: 2em;
+    font-family: caviar-dreams-bold;
+}
+
+.description-photo img {
+    width: 40%;
+    max-width: 25vh;
+    min-width: 250px;
+    min-height: 250px;
+    border: 10px solid white;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
+}
+
+.description-icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+    width: 200px;
+}
+
+.description-icon {
+    display: flex;
+    column-gap: 0px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    background-color: #181a1b;
+    color: #f5f5f5;
+    
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.description-icon:hover {
+    background-color: #f0b522;
+    color: #181a1b;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+.description-icon .fa {
+    font-size: 25px;
+}
+
+/** SKILLS SECTION **/
+
+.skills-container {
+    height: auto;
+    border: 1px solid blue;
+}
+
+
+/** RESUME SECTION **/
+
+.resume-container {
     height: auto;
     border: 1px solid blue;
 }
@@ -106,4 +181,8 @@
     /** LANDING EXPERIENCE SECTION **/
 
     /** DESCRIPTION SECTION **/
+
+    /** SKILLS SECTION **/
+
+    /** RESUME SECTION **/
 }
