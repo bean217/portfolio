@@ -17,16 +17,16 @@ import useWindowSize from '../../hooks/useWindowSize';
 
 const SkillsData = [
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "C Programming Language",
         description: "The majority of my experience stems from a \
         course I took called Mechanics of Programming. I have an \
         ongoing side project in C using the NCurses library to \
-        create a terminal ASCII UI for interacting with a Conway’s \
+        create a terminal ASCII UI for interacting with a Conway's \
         Game of Life simulator."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "Java Programming Language",
         description: "Java is a language often used in undergraduate \
         programming courses at RIT. Most of my experience in Java is \
@@ -35,7 +35,7 @@ const SkillsData = [
         course."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "C#/.NET",
         description: "Most of my video game oriented personal projects \
         have been written in C#/.NET in collaboration with the MonoGame \
@@ -43,7 +43,7 @@ const SkillsData = [
         my projects tab."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "Python Programming Language",
         description: "I have experience using Python to write small tools and \
         participate in coding challenges, such as the annual Advent of Code holiday \
@@ -51,7 +51,7 @@ const SkillsData = [
         and writing applications that involve AI and machine learning."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "ReactJS",
         description: "I have some experience using React to develop web \
         applications as a means of interfacing with tools that I have built, \
@@ -59,7 +59,7 @@ const SkillsData = [
         React through future personal projects related to AI and machine learning."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "JavaScript/HTML5/CSS",
         description: "I have some experience using JavaScript, HTML and CSS to \
         develop a few web applications, as well as this website. During my first \
@@ -67,7 +67,7 @@ const SkillsData = [
         JavaScript using AngularJS."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "Agile Development",
         description: "I first got some experience with Agile development in my \
         introduction to software engineering course where I built a checkers web \
@@ -75,7 +75,7 @@ const SkillsData = [
         using Agile development in my first co-op with Carestream Health, Inc."
     },
     {
-        icon: {},
+        icon: "fas fa-bookmark",
         title: "Git/GitHub/Azure DevOps",
         description: "Throughout my college life and professional life I have used git \
         through the command line in conjunction with GitHub and Azure DevOps. While I have \

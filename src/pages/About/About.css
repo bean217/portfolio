@@ -196,7 +196,6 @@
 /** SKILLS SECTION **/
 
 .skills-container {
-    border: 1px solid blue;
     height: auto;
     display: flex;
     flex-direction: column;

@@ -1,13 +1,17 @@
 .skill-panel {
     width: 500px;
     height: auto;
-    background-color: #e6e6e6;
-    color: #181a1b;
+    background-color: #181a1b;
+    color: #e6e6e6;
     margin: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+}
+
+.skill-panel:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
 }
 
 .skill-title {
@@ -26,14 +30,20 @@
 
 .skill-header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
+    flex-direction: column;
     background: linear-gradient(-180deg, #23a6d5, #23a6d5, #23a6d5, #23a6d5);
     border-radius: 15px 15px 0 0;
-    border-bottom: 1px solid black;
 }
 
 .skill-icon {
+    font-size: 40px;
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-title {
@@ -42,4 +52,11 @@
 
 .skill-description {
     text-align: left;
+    background: linear-gradient(-180deg, rgba(35,166,213,1) 0%, #181a1b 10%);
+}
+
+@media only screen and (max-width: 786px) {
+    .skill-panel {
+        width: auto;
+    }
 }
