@@ -1,0 +1,45 @@
+.skill-panel {
+    width: 500px;
+    height: auto;
+    background-color: #e6e6e6;
+    color: #181a1b;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.skill-title {
+    font-family: source-sans-pro;
+    font-size: 18pt;
+}
+
+.skill-description {
+    font-family: source-sans-pro-light;
+    font-size: 14pt;
+}
+
+.skill-panel .skill-description, .skill-panel .skill-header div {
+    padding: 5px;
+}
+
+.skill-header {
+    display: flex;
+    flex-wrap: nowrap;
+    background: linear-gradient(-180deg, #23a6d5, #23a6d5, #23a6d5, #23a6d5);
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid black;
+}
+
+.skill-icon {
+    width: 25%;
+}
+
+.skill-title {
+    width: 75%;
+}
+
+.skill-description {
+    text-align: left;
+}
