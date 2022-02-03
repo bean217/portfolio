@@ -7,12 +7,11 @@ import SkillPanel from "../../components/SkillPanel/SkillPanel";
 
 // Assets
 import benpic from '../../assets/benpiro.png';
+import desc_benpic from '../../assets/desc_benpic.jpg';
 import ritlogo from '../../assets/RIT_seal.png';
 import ritcsh from '../../assets/rit_csh.png';
 import carestream from '../../assets/carestream.png';
 import crossmen from '../../assets/crossmen-productions-logo.jpg';
-import resume_pdf from '../../pdfs/Resume1Sep2021.pdf';
-
 // Hooks
 import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
@@ -123,7 +122,7 @@ const Description = () => {
         <div className="description-container">
             <div className="description">
                 <div className="description-assets">
-                    <div className="description-photo description-item"><img src={benpic} alt=""></img></div>
+                    <div className="description-photo description-item"><img src={desc_benpic} alt=""></img></div>
                     <div className="description-icons-wrapper">
                         <div className="description-icon">
                             <a 
@@ -185,7 +184,7 @@ const Description = () => {
 const Skills = () => {
     return (
         <div className="skills-container">
-            <div className="skills-title">Skills</div>
+            <div className="skills-title">I Have A Growing Skillset</div>
             <div className="skills-panels">
                 {SkillsData.map(function (item) {
                     return <SkillPanel skillData={item}/>
@@ -203,7 +202,7 @@ const Resume = () => {
             <div className="resume-items">
                 <div className="button"><Link to="/projects"><div className="text">Projects</div></Link></div>
                 <div className="button"><Link to="/experience"><div className="text">Experience</div></Link></div>
-                <div className="button"><Link to="/extra"><div className="text">Extra</div></Link></div>
+                <div className="button"><Link to="/extra"><div className="text">Extra Info</div></Link></div>
                 <div className="button">
                     <a 
                         href="https://drive.google.com/file/d/1dAw55KFH_yrIPrpWeUQ6MTTBWtt-4AL2/view?usp=sharing"
