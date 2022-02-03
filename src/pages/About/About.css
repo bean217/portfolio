@@ -196,6 +196,7 @@
 /** SKILLS SECTION **/
 
 .skills-container {
+    padding: 20px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -220,6 +221,7 @@
 /** RESUME SECTION **/
 
 .resume-container {
+    padding: 20px;
     background-color: #e6e6e6;
     color: #181a1b;
     height: auto;
@@ -235,6 +237,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .resume-items .button {
@@ -260,7 +263,7 @@
 
 .resume-items .button:hover {
     color: #ef5951;
-    box-shadow: 0 4px 4px 0 rgba(255, 255, 255,.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0,.2);
 }
 
 @keyframes gradient {

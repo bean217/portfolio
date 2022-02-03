@@ -205,7 +205,11 @@ const Resume = () => {
                 <div className="button"><Link to="/experience"><div className="text">Experience</div></Link></div>
                 <div className="button"><Link to="/extra"><div className="text">Extra</div></Link></div>
                 <div className="button">
-                    <a href={resume_pdf}  target="_blank" rel="noopener noreferrer" className="text link">
+                    <a 
+                        href="https://drive.google.com/file/d/1dAw55KFH_yrIPrpWeUQ6MTTBWtt-4AL2/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text link">
                         <div className="far fa-file-pdf"></div> My Resume
                     </a>
                 </div>
