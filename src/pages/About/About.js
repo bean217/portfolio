@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 // Components
@@ -10,6 +11,7 @@ import ritlogo from '../../assets/RIT_seal.png';
 import ritcsh from '../../assets/rit_csh.png';
 import carestream from '../../assets/carestream.png';
 import crossmen from '../../assets/crossmen-productions-logo.jpg';
+import resume_pdf from '../../pdfs/Resume1Sep2021.pdf';
 
 // Hooks
 import useScrollPosition from '../../hooks/useScrollPosition';
@@ -170,7 +172,9 @@ const Description = () => {
                         <li className="bold">Bachelor of Science in Computer Science</li>
                         <li className="bold">Immersion in German Language &amp; Culture</li>
                         <li className="regular">Alumnus of Computer Science House</li>
-                        <li className="regular">Outstanding Undergraduate Scholar Award Recipient (awarded to the top 1% undergraduate students at RIT)</li>
+                        <li className="regular">
+                            Outstanding Undergraduate Scholar Award Recipient (awarded to the top 1% undergraduate students at RIT)
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -195,7 +199,17 @@ const Skills = () => {
 const Resume = () => {
     return (
         <div className="resume-container">
-            Resume Container
+            <div className="resume-title">Want to learn more?</div>
+            <div className="resume-items">
+                <div className="button"><Link to="/projects"><div className="text">Projects</div></Link></div>
+                <div className="button"><Link to="/experience"><div className="text">Experience</div></Link></div>
+                <div className="button"><Link to="/extra"><div className="text">Extra</div></Link></div>
+                <div className="button">
+                    <a href={resume_pdf}  target="_blank" rel="noopener noreferrer" className="text link">
+                        <div className="far fa-file-pdf"></div> My Resume
+                    </a>
+                </div>
+            </div>
         </div>
     );
 };
@@ -208,6 +222,7 @@ const About = () => {
             <LandingExperience/>
             <Description/>
             <Skills/>
+            <br/><br/>
             <Resume/>
         </div>
     );

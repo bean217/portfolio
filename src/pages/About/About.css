@@ -220,8 +220,47 @@
 /** RESUME SECTION **/
 
 .resume-container {
+    background-color: #e6e6e6;
+    color: #181a1b;
     height: auto;
-    border: 1px solid blue;
+}
+
+.resume-title {
+    font-family: caviar-dreams-bold;
+    font-size: 24pt;
+    line-height: 3rem;
+}
+
+.resume-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-items .button {
+    padding: 0;
+    margin: 10px 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0,.2);
+    cursor: default;
+    flex-wrap: wrap;
+}
+
+.resume-items .button a {
+    display: block;
+}
+
+.resume-items .button div, .resume-items .button a {
+    font-size: 18pt;
+    line-height: 2rem;
+}
+
+.resume-items .button .text {
+    font-family: source-sans-pro-light;
+}
+
+.resume-items .button:hover {
+    color: #ef5951;
+    box-shadow: 0 4px 4px 0 rgba(255, 255, 255,.2);
 }
 
 @keyframes gradient {

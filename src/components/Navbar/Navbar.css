@@ -4,7 +4,6 @@
     align-items: center;
 
     grid-area: nav;
-    font-family: inherit;
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
     position: relative;
@@ -78,6 +77,11 @@
     margin-right: 5%;
     align-items: center;
     height: inherit;
+}
+
+.nav-element {
+    font-family: source-sans-pro-light;
+    font-size: 18pt;
 }
 
 .nav-element:hover {
