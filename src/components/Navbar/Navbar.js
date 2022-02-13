@@ -29,7 +29,6 @@ function DropDown() {
             onMouseLeave={() => setIsDropDownHover(false)}>
             <div>{dropdownicon}</div>
             <div className="dropdown-content">
-                <Link to="/"><Element name="About"/></Link>
                 <Link to="/projects"><Element name="Projects"/></Link>
                 <Link to="/experience"><Element name="Experience"/></Link>
                 <Link to="/extra"><Element name="Extra"/></Link>
@@ -49,7 +48,6 @@ function useNavbar() {
             <div className="nav-container-desktop noselect">
                 <Title />
                 <div className="nav-elements">
-                    <Link to="/"><Element name="About"/></Link>
                     <Link to="/projects"><Element name="Projects"/></Link>
                     <Link to="/experience"><Element name="Experience"/></Link>
                     <Link to="/extra"><Element name="Extra"/></Link>
