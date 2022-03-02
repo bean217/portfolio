@@ -1,4 +1,4 @@
-.skill-panel {
+.skill-panel-wrapper {
     width: 500px;
     height: auto;
     background-color: #181a1b;
@@ -7,10 +7,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
 }
 
-.skill-panel:hover {
+.skill-panel {
+    background: #181a1b;
+    padding: 7px;
+    height: 100%;
+}
+
+.skill-panel-wrapper:hover {
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
 }
 
@@ -24,7 +31,7 @@
     font-size: 14pt;
 }
 
-.skill-panel .skill-description, .skill-panel .skill-header div {
+.skill-panel-wrapper .skill-description, .skill-panel-wrapper .skill-header div {
     padding: 5px;
 }
 
@@ -34,8 +41,6 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    background: linear-gradient(-180deg, #23a6d5, #23a6d5, #23a6d5, #23a6d5);
-    border-radius: 15px 15px 0 0;
 }
 
 .skill-icon {
@@ -52,11 +57,10 @@
 
 .skill-description {
     text-align: left;
-    background: linear-gradient(-180deg, rgba(35,166,213,1) 0%, #181a1b 10%);
 }
 
 @media only screen and (max-width: 786px) {
-    .skill-panel {
+    .skill-panel-wrapper {
         width: auto;
     }
 }

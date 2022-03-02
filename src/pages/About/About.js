@@ -117,6 +117,7 @@ const Description = () => {
 };
 
 const Skills = () => {
+    const len = SkillsData.length;
     return (
         <div className="skills-container">
             <div className="skills-title">I Have A Growing Skillset</div>

@@ -1,5 +1,6 @@
 export const SkillsData = [
     {
+        index: 0,
         icon: "fas fa-bookmark",
         title: "C Programming Language",
         description: "The majority of my experience stems from a \
@@ -9,6 +10,7 @@ export const SkillsData = [
         Game of Life simulator."
     },
     {
+        index: 1,
         icon: "fas fa-bookmark",
         title: "Java Programming Language",
         description: "Java is a language often used in undergraduate \
@@ -18,6 +20,7 @@ export const SkillsData = [
         course."
     },
     {
+        index: 2,
         icon: "fas fa-bookmark",
         title: "C#/.NET",
         description: "Most of my video game oriented personal projects \
@@ -26,6 +29,7 @@ export const SkillsData = [
         my projects tab."
     },
     {
+        index: 3,
         icon: "fas fa-bookmark",
         title: "Python Programming Language",
         description: "I have experience using Python to write small tools and \
@@ -34,6 +38,7 @@ export const SkillsData = [
         and writing applications that involve AI and machine learning."
     },
     {
+        index: 4,
         icon: "fas fa-bookmark",
         title: "ReactJS",
         description: "I have some experience using React to develop web \
@@ -42,6 +47,7 @@ export const SkillsData = [
         React through future personal projects related to AI and machine learning."
     },
     {
+        index: 5,
         icon: "fas fa-bookmark",
         title: "JavaScript/HTML5/CSS",
         description: "I have some experience using JavaScript, HTML and CSS to \
@@ -50,6 +56,7 @@ export const SkillsData = [
         JavaScript using AngularJS."
     },
     {
+        index: 6,
         icon: "fas fa-bookmark",
         title: "Agile Development",
         description: "I first got some experience with Agile development in my \
@@ -58,6 +65,7 @@ export const SkillsData = [
         using Agile development in my first co-op with Carestream Health, Inc."
     },
     {
+        index: 7,
         icon: "fas fa-bookmark",
         title: "Git/GitHub/Azure DevOps",
         description: "Throughout my college life and professional life I have used git \
@@ -66,3 +74,16 @@ export const SkillsData = [
         at Carestream Health, Inc."
     }
 ];
+
+export const SkillsColorGradient = {
+    startColor: {
+        r: 231,
+        g: 60,
+        b: 126
+    },
+    endColor: {
+        r: 35,
+        g: 166,
+        b: 213
+    }
+};
