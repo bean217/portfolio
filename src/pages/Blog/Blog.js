@@ -6,6 +6,7 @@ const Blog = () => {
     return (
         <div>
             <h3>Blog</h3>
+            <h4>This page is empty right now!</h4>
         </div>
     );
 };

@@ -6,6 +6,7 @@ const Extra = () => {
     return (
         <div>
             <h3>Extra</h3>
+            <h4>This page is empty right now!</h4>
         </div>
     );
 };

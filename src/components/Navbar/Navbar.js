@@ -32,7 +32,7 @@ function DropDown() {
                 <Link to="/projects"><Element name="Projects"/></Link>
                 <Link to="/experience"><Element name="Experience"/></Link>
                 <Link to="/blog"><Element name="Blog"/></Link>
-                <Link to="/extra"><Element name="Extra"/></Link>
+                {/*<Link to="/extra"><Element name="Extra"/></Link>*/}
             </div>
         </div>
     );
@@ -52,7 +52,7 @@ function useNavbar() {
                     <Link to="/projects"><Element name="Projects"/></Link>
                     <Link to="/experience"><Element name="Experience"/></Link>
                     <Link to="/blog"><Element name="Blog"/></Link>
-                    <Link to="/extra"><Element name="Extra"/></Link>
+                    {/*<Link to="/extra"><Element name="Extra"/></Link>*/}
                 </div>
             </div>
             <div className="nav-container-mobile noselect">

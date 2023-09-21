@@ -158,10 +158,11 @@ const Resume = () => {
             <div className="resume-items">
                 <div className="button"><Link to="/projects"><div className="text">Projects</div></Link></div>
                 <div className="button"><Link to="/experience"><div className="text">Experience</div></Link></div>
-                <div className="button"><Link to="/extra"><div className="text">Extra Info</div></Link></div>
+                <div className="button"><Link to="/blog"><div className="text">Blog</div></Link></div>
+                {/*<div className="button"><Link to="/extra"><div className="text">Extra Info</div></Link></div>*/}
                 <div className="button">
                     <a 
-                        href="https://drive.google.com/file/d/1dAw55KFH_yrIPrpWeUQ6MTTBWtt-4AL2/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1ATkAL_AfCbPDZaNjJMBFVfx_mLAavJAG/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text link">

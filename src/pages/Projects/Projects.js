@@ -6,6 +6,7 @@ const Projects = () => {
     return (
         <div>
             <h3>Projects</h3>
+            <h4>This page is empty right now!</h4>
         </div>
     );
 };
