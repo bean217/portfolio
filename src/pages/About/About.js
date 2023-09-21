@@ -12,6 +12,7 @@ import ritlogo from '../../assets/RIT_seal.png';
 import ritcsh from '../../assets/rit_csh.png';
 import carestream from '../../assets/carestream.png';
 import crossmen from '../../assets/crossmen-productions-logo.jpg';
+import cbyx from '../../assets/cbyx_banner.png'
 
 // Data
 import { SkillsData } from '../../data/about_data';
@@ -35,7 +36,7 @@ const Landing = () => {
             <div className="landing">
                 <div className="landingphoto landingitem"><img src={benpic} alt=""></img></div>
                 <div className="landingname landingitem">Benjamin Piro</div>
-                <div className="landingtext landingitem">Software Engineering Intern at Carestream Health, Inc. - Undergraduate Student in Computer Science</div>
+                <div className="landingtext landingitem">Graduate Student in Computer Science with a Focus in AI/ML</div>
             </div>
         </div>
     );
@@ -48,6 +49,7 @@ const LandingExperience = () => {
             <div className="csh"><img src={ritcsh} alt=""></img></div>
             <div className="crossmen"><img src={crossmen} alt=""></img></div>
             <div className="carestream"><img src={carestream} alt=""></img></div>
+            <div className="cbyx"><img src={cbyx}></img></div>
         </div>
     );
 };
@@ -88,27 +90,45 @@ const Description = () => {
                 <div className="description-text">
                     <div className="name">Benjamin Piro</div>
                     <br/>
-                    <div className="education">RIT '24, Computer Science Student, Software Engineer, and Musician</div>
-                    <div className="text">I am a current undergraduate student at the Rochester Institute of Technology and 
+                    <div className="education">RIT '25, Computer Science BSc/MSc Student, Software Engineer, and Musician</div>
+                    <div className="text">I am a current graduate student at the Rochester Institute of Technology and 
                         I have a deep passion for both computer science and music. My interests included
-                        software development, computational mathematics, artificial intelligent, and machine
+                        software development, computational mathematics, and machine
                         learning. In my leisure, I enjoy performing as a tubist in the RIT Philharmonic
                         Orchestra and participating as a member and section leader of The Cadets Drum
                         &amp; Bugle Corps tuba section.</div>
                     <br/>
-                    <div className="text">I am currently working as a software engineer intern at Carestream Health, Inc. as a member
-                        of their ImageView team. This team is responsible for developing and maintaining the user
-                        interfaces used on Carestream's suite of X-ray machines.
+                    <div className="text">I am currently participating as a student foreign diplomat in Germany as 
+                        part of the 40th cohort of the Parlamentarisches Patenschafts-Programm. In my time abroad in Germany,
+                        I have studied German language up to a B1 proficiency at the Carl Duisberg Centrum in Köln, and
+                        I am currently studying for a semester in the Mathematics for Data &amp; Resource Science MSc program
+                        at the Technische Universität Bergakademie Freiberg in Freiberg, Sachsen. I am actively looking for
+                        internships to take my software engineering and machine learning knowledge and skills to the next level.
                     </div>
                     <br/><br/>
                     <div className="education">Rochester Institute of Technology (RIT)</div>
                     <ul className="education-list">
-                        <li className="bold">Bachelor of Science in Computer Science</li>
+                        <li className="bold">Dual BSc/MSc Degree in Computer Science</li>
                         <li className="bold">Immersion in German Language &amp; Culture</li>
                         <li className="regular">Alumnus of Computer Science House</li>
                         <li className="regular">
                             Outstanding Undergraduate Scholar Award Recipient (awarded to the top 1% undergraduate students at RIT)
                         </li>
+                        <li className="regular">
+                            Parlamentarisches Patenschafts-Programm Fellow 40th Cohort    
+                        </li>
+                    </ul>
+                    <br/><br/>
+                    <div className="education">Universität Osnabrück (UOS) - Study Abroad</div>
+                    <ul className="education-list">
+                        <li className="bold">2023 Summer Semester in Cognitive Science BSc</li>
+                        <li className="regular">Artificial Intelligence, Machine Learning, and Computational Linguistics Focus</li>
+                    </ul>
+                    <br/><br/>
+                    <div className="education">Parlamentarisches Patenschafts-Programm Fellow 40th Cohort</div>
+                    <ul className="education-list">
+                        <li className="regular">Carl Duisberg Centrum Köln, B1 German Proficiency</li>
+                        <li className="regular">Technische Universität Bergakademie Freiberg, Mathematics for Data &amp; Resource Science MSc</li>
                     </ul>
                 </div>
             </div>

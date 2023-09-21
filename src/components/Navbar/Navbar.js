@@ -31,6 +31,7 @@ function DropDown() {
             <div className="dropdown-content">
                 <Link to="/projects"><Element name="Projects"/></Link>
                 <Link to="/experience"><Element name="Experience"/></Link>
+                <Link to="/blog"><Element name="Blog"/></Link>
                 <Link to="/extra"><Element name="Extra"/></Link>
             </div>
         </div>
@@ -50,6 +51,7 @@ function useNavbar() {
                 <div className="nav-elements">
                     <Link to="/projects"><Element name="Projects"/></Link>
                     <Link to="/experience"><Element name="Experience"/></Link>
+                    <Link to="/blog"><Element name="Blog"/></Link>
                     <Link to="/extra"><Element name="Extra"/></Link>
                 </div>
             </div>

@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Experience from './pages/Experience/Experience';
+import Blog from './pages/Blog/Blog';
 import Extra from './pages/Extra/Extra';
 import { Routes, Route} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path='/' element={<About />}></Route>
                 <Route path='/projects' element={<Projects />}></Route>
                 <Route path='/experience' element={<Experience />}></Route>
+                <Route path='/blog' element={<Blog />}></Route>
                 <Route path='/extra' element={<Extra />}></Route>
             </Routes>
             <Footer/>
