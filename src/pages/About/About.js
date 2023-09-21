@@ -142,8 +142,8 @@ const Skills = () => {
         <div className="skills-container">
             <div className="skills-title">I Have A Growing Skillset</div>
             <div className="skills-panels">
-                {SkillsData.map(function (item) {
-                    return <SkillPanel skillData={item}/>
+                {SkillsData.map(function (item, i) {
+                    return <SkillPanel skillData={item} key={i}/>
                 })}
             </div>
             

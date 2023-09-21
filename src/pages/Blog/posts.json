@@ -1,0 +1,104 @@
+[
+    {
+        "title": "A New (ML) Journey Begins...",
+        "date": "2023-09-17T15:00:00",
+        "location": "Cologne, Germany",
+        "content": [
+            { 
+                "type": "text",
+                "content": "Today is the day I start trying to document my journey into artificial intelligence, machine learning, and eventually even further into deep learning."
+            },
+            {
+                "type": "text",
+                "content": "I suppose I should introduce myself first though."
+            },
+            {
+                "type": "text",
+                "content": "Hello, my name is Benjamin Piro. I am (or was, dependending on when you are reading this) a dual-degree computer science BSc/MSc student at the Rochester Institute of Technology in upstate, NY. So far, it has been five years since I started my studies in computer science. When I first started out in school, I didn’t know anything about the topic. However, through the - so far - six semesters of study I have come to grasp a good foundation on general programming, theory, and a little bit of history (as a treat). At some point along the way, although my initial ambition was to aim for a career in video game development after university, I became interested in the more scientific and mathematical aspects of computer science. Through the public unveiling of OpenAI’s ChatGPT, as well as other earlier applications of machine learning, I ultimately decided that a future career in machine learning engineering and eventually research would come to satisfy my desires to do something a little more meaningful with my life."
+            },
+            {
+                "type": "text",
+                "content": "Up until March 2023, all of my experiences in my field have been for the most part purely software engineering related. I had started many projects either on my own, or often in collaboration with the Computer Science House (CSH) organization at RIT. Most of the leisure work I did fell under trying to develop two-dimensional top-down role-playing games, exploring the different tools that programming languages had to offer (particularly C, C#, and Rust), and quite a bit of substandard API development, such as with the CSH Devcade project (though most of my contributions have largely been overwritten). Through all of these projects, there was never really anything to grab my attention past getting a general understanding for how different tools worked. What I really wanted was to dive into an area that was still actively being explored, that way my hunger to understand could never be satiated."
+            },
+            {
+                "type": "text",
+                "content": "And then I started my semester of study abroad in Osnabrück, Germany."
+            },
+            {
+                "type": "text",
+                "content": "While I somewhat initially intended this semester to be focused on getting to explore German life, language, and culture, I quickly became consumed with my coursework. During this semester abroad, I took three courses: Introduction to Artificial Intelligence & Logic Programming, Introduction to Computational Linguistics, and most notably, Machine Learning."
+            },
+            {
+                "type": "text",
+                "content": "The two former courses, while I enjoyed them and was pretty interested in the content they covered, I was already pretty familiar with their content. Intro to AI largely consisted of learning the Prolog logic programming language, some general/heuristic-based search algorithms, and some fundamental machine learning models/algorithms. Computational Linguistics for the most part was just like taking computer science theory again, plus some more purely linguistic material, as well as a little practice with basic N-Gram models and information retrieval/document classification systems."
+            },
+            {
+                "type": "text",
+                "content": "Then there was Machine Learning. Students in the Cognitive Science degree at Universitaet Osnabrueck are often recommended not to take this course until their fourth semester, while the two previously mentioned classes could be taken in the first or second semester. Machine Learning was overall an extremely dense course. This course covered everything from the basics concepts of an intelligent system (like the inductive learning hypothesis and inductive bias for example), the fundamentals of unsupervised learning (like clustering, dimensionality reduction, and PCA), and basic classifiers to some slightly more complex topics like neural networks (and their extensions, like accounting for momentum and weight decay), reinforcement learning (Q-Learning, mostly), and temporal probability models (i.e. Hidden Markov Models and the Viterbi Algorithm). Clearly, I had my work cut out for me. While taking this course certainly took away a lot of my free time, I ended up gaining a solid understanding of the fundamentals of machine learning."
+            },
+            {
+                "type": "text",
+                "content": "One thing I really loved about this course was how the lecturers would tell us, the students, that there still existed so many problems yet to be solved, and that we would be the ones to solve those problems. It made me feel like I was in some sort of science history movie depicting the growth of a historical figure coming into themselves as the world today remembers them."
+            },
+            {
+                "type": "text",
+                "content": "Finishing this semester of study brings me to where I am today, skipping a few more details of course. At the moment, as a participant of the 40th cohort of the Parlamentarisches Patenschafts-Programm, I am just a few weeks out from moving to Freiberg, a small city in the Bundesland of Sachsen. At some point in the next five months, I will need to have an offer for an internship, and it is my ultimate goal to get some experience working in machine learning before I return to the U.S. to finish up my masters at RIT."
+            },
+            {
+                "type": "text",
+                "content": "In future posts of this blog, I will cover my journey practicing machine learning and discussing just about any arbitrary thing that I have come to find “interesting” along the way - in whichever way I choose to define that term. I will not be starting from scratch, but merely just sharing my thoughts and feelings as I tackle projects either through Kaggle or otherwise."
+            }
+        ]
+    },
+    {
+        "title": "A New (ML) Journey Begins...",
+        "date": "2024-09-17T15:00:00",
+        "location": "Cologne, Germany",
+        "content": [
+            { 
+                "type": "text",
+                "content": "Today is the day I start trying to document my journey into artificial intelligence, machine learning, and eventually even further into deep learning."
+            },
+            {
+                "type": "text",
+                "content": "I suppose I should introduce myself first though."
+            },
+            {
+                "type": "text",
+                "content": "Hello, my name is Benjamin Piro. I am (or was, dependending on when you are reading this) a dual-degree computer science BSc/MSc student at the Rochester Institute of Technology in upstate, NY. So far, it has been five years since I started my studies in computer science. When I first started out in school, I didn’t know anything about the topic. However, through the - so far - six semesters of study I have come to grasp a good foundation on general programming, theory, and a little bit of history (as a treat). At some point along the way, although my initial ambition was to aim for a career in video game development after university, I became interested in the more scientific and mathematical aspects of computer science. Through the public unveiling of OpenAI’s ChatGPT, as well as other earlier applications of machine learning, I ultimately decided that a future career in machine learning engineering and eventually research would come to satisfy my desires to do something a little more meaningful with my life."
+            },
+            {
+                "type": "text",
+                "content": "Up until March 2023, all of my experiences in my field have been for the most part purely software engineering related. I had started many projects either on my own, or often in collaboration with the Computer Science House (CSH) organization at RIT. Most of the leisure work I did fell under trying to develop two-dimensional top-down role-playing games, exploring the different tools that programming languages had to offer (particularly C, C#, and Rust), and quite a bit of substandard API development, such as with the CSH Devcade project (though most of my contributions have largely been overwritten). Through all of these projects, there was never really anything to grab my attention past getting a general understanding for how different tools worked. What I really wanted was to dive into an area that was still actively being explored, that way my hunger to understand could never be satiated."
+            },
+            {
+                "type": "text",
+                "content": "And then I started my semester of study abroad in Osnabrück, Germany."
+            },
+            {
+                "type": "text",
+                "content": "While I somewhat initially intended this semester to be focused on getting to explore German life, language, and culture, I quickly became consumed with my coursework. During this semester abroad, I took three courses: Introduction to Artificial Intelligence & Logic Programming, Introduction to Computational Linguistics, and most notably, Machine Learning."
+            },
+            {
+                "type": "text",
+                "content": "The two former courses, while I enjoyed them and was pretty interested in the content they covered, I was already pretty familiar with their content. Intro to AI largely consisted of learning the Prolog logic programming language, some general/heuristic-based search algorithms, and some fundamental machine learning models/algorithms. Computational Linguistics for the most part was just like taking computer science theory again, plus some more purely linguistic material, as well as a little practice with basic N-Gram models and information retrieval/document classification systems."
+            },
+            {
+                "type": "text",
+                "content": "Then there was Machine Learning. Students in the Cognitive Science degree at Universitaet Osnabrueck are often recommended not to take this course until their fourth semester, while the two previously mentioned classes could be taken in the first or second semester. Machine Learning was overall an extremely dense course. This course covered everything from the basics concepts of an intelligent system (like the inductive learning hypothesis and inductive bias for example), the fundamentals of unsupervised learning (like clustering, dimensionality reduction, and PCA), and basic classifiers to some slightly more complex topics like neural networks (and their extensions, like accounting for momentum and weight decay), reinforcement learning (Q-Learning, mostly), and temporal probability models (i.e. Hidden Markov Models and the Viterbi Algorithm). Clearly, I had my work cut out for me. While taking this course certainly took away a lot of my free time, I ended up gaining a solid understanding of the fundamentals of machine learning."
+            },
+            {
+                "type": "text",
+                "content": "One thing I really loved about this course was how the lecturers would tell us, the students, that there still existed so many problems yet to be solved, and that we would be the ones to solve those problems. It made me feel like I was in some sort of science history movie depicting the growth of a historical figure coming into themselves as the world today remembers them."
+            },
+            {
+                "type": "text",
+                "content": "Finishing this semester of study brings me to where I am today, skipping a few more details of course. At the moment, as a participant of the 40th cohort of the Parlamentarisches Patenschafts-Programm, I am just a few weeks out from moving to Freiberg, a small city in the Bundesland of Sachsen. At some point in the next five months, I will need to have an offer for an internship, and it is my ultimate goal to get some experience working in machine learning before I return to the U.S. to finish up my masters at RIT."
+            },
+            {
+                "type": "text",
+                "content": "In future posts of this blog, I will cover my journey practicing machine learning and discussing just about any arbitrary thing that I have come to find “interesting” along the way - in whichever way I choose to define that term. I will not be starting from scratch, but merely just sharing my thoughts and feelings as I tackle projects either through Kaggle or otherwise."
+            }
+        ]
+    }
+]
