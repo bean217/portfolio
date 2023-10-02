@@ -18,13 +18,15 @@ const counterSlice = createSlice({
         decrement: (state) => {
             state.value -= 1;
         },
-        // incrementByAmount
+        // incrementByAmount, which has an associated payload
         incrementByAmount: (state, action) => {
             state.value += action.payload;
         }
     }
 });
 
+// our actions
 export const { increment, decrement, incrementByAmount } = counterSlice.actions;
 
+// our reducer
 export default counterSlice.reducer;
